@@ -34,7 +34,7 @@
             title: 'MeliTaxCalculator',
             description: 'Real Profit Calculator for Mercado Livre.',
             image: '',
-            link: 'https://github.com/username/project1'
+            link: 'https://meli-tax-calculator.vercel.app'
           },
           {
             title: 'Bikcraft',
