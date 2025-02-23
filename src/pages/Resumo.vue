@@ -86,7 +86,7 @@
     data() {
       return {
         skills: [
-          { name: 'Vue.js', value: 50},
+          { name: 'Vue.js', value: 60},
           { name: 'Vuetify', value: 45 },
           { name: 'React', value: 20 },
           { name: 'Angular', value: 10 },
