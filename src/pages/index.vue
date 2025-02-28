@@ -16,12 +16,12 @@
           </h2>
         </div>
         
-        <!-- Botão About Me dentro da mesma coluna -->
+    
         <v-btn class="about-btn">
           <v-icon>mdi-human-greeting-variant</v-icon> About me
         </v-btn>
       </v-col>
-        <!-- Coluna da Imagem -->
+        
         <v-col cols="12" md="6" sm="10" class="image-container">
         <img class="front-icon" src="@/assets/img/Frontend-icon.png" alt="Front-End Icon" />
       </v-col>
