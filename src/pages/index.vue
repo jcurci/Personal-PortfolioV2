@@ -1,38 +1,49 @@
 <template>
   <v-container id="welcomeMsg">
-    <img
-      class="front-icon"
-      src="@/assets/img/Frontend-icon.png"
-      align="right"
-      alt="Front-End Icon"
-    />
-    <div
-      class="offset-md-1"
-    >
-      <v-col cols="12" md="6" xs="10">
+    <v-row align="center" justify="center" class="offset-md-1">
+      
+      <v-col cols="12" md="6" sm="10">
         <div id="textbox">
-          <div>
-            <h2 id="typeWriter">
-              Hello World, Welcome!
-              <div id="border"></div>
-            </h2>
-          </div>
+          <h2 id="typeWriter">
+            Hello World, Welcome!
+            <div id="border"></div>
+          </h2>
           <h1>My name is Jhonatan Curci.</h1>
           <h2>
             I am a <span id="highlight">Web Developer</span>
-            actually working on <a class="highlight-btn" href="https://www.mdsgroup.com.br/pt/" target="_blank">MDS BRASIL.</a>
+            actually working on 
+            <a class="highlight-btn" href="https://www.mdsgroup.com.br/pt/" target="_blank">MDS BRASIL.</a>
           </h2>
         </div>
+        
+        <!-- Botão About Me dentro da mesma coluna -->
+        <v-btn class="about-btn">
+          <v-icon>mdi-human-greeting-variant</v-icon> About me
+        </v-btn>
       </v-col>
-      <v-btn 
-        class="about-btn"
-        to="/resumo"
-      ><v-icon>mdi-human-greeting-variant</v-icon> About me</v-btn>
-    </div>
+        <!-- Coluna da Imagem -->
+        <v-col cols="12" md="6" sm="10" class="image-container">
+        <img class="front-icon" src="@/assets/img/Frontend-icon.png" alt="Front-End Icon" />
+      </v-col>
+
+    </v-row>
   </v-container>
 </template>
 
+
+
 <style scoped>
+
+.text-container {
+  padding: 20px;
+  text-align: center;
+}
+@media (min-width: 960px) {
+  .text-container {
+    text-align: left;
+  }
+}
+
 #welcomeMsg{
   padding-top: 50px;;
 }
@@ -67,9 +78,9 @@ h2 {
   box-shadow: 0 2px 15px rgba(219, 187, 4, 0.5);
   border: 1.5px solid #FFEA00;
   font-size: 14px;
-  border-radius: 10px;
-  margin-left: 10px; 
+  border-radius: 10px; 
   transition: all 0.3s ease; 
+  margin-top: 10px
 }
 .about-btn:hover{
   border-color: #FFEA00; 
@@ -95,9 +106,16 @@ h2 {
 #highlight {
   box-shadow: inset 0 -7px 0 #ffea0436;
 }
-.front-icon{
-  padding: 70px;
-  margin-right: 30px;
+.front-icon {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 80px auto;
+}
+@media (max-width: 600px) {
+  .front-icon {
+    max-width: 60%;
+  }
 }
 @keyframes animated-text {
   from {
