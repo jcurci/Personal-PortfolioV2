@@ -5,7 +5,7 @@
         <v-btn href="https://br.linkedin.com/in/jhocurci" target="_blank">
           <v-icon>mdi-linkedin</v-icon>
         </v-btn>  
-        <v-btn href="https://br.linkedin.com/in/jhocurci" target="_blank">
+        <v-btn href="https://github.com/jcurci" target="_blank">
           <v-icon>mdi-github</v-icon>
         </v-btn>  
         <v-btn to="/contato">
