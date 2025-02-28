@@ -14,7 +14,7 @@
 <script>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import AppbarMobile from '@/components/AppBarMobile.vue';
-import Appbar from '@/components/AppBar.vue';
+import Appbar from '@/components/Appbar.vue';
 
 export default {
   components: {
