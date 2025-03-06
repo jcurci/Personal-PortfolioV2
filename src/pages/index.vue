@@ -38,6 +38,13 @@
   padding: 20px;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .front-icon {
+    display: none !important;
+  }
+}
+
 @media (min-width: 960px) {
   .text-container {
     text-align: left;

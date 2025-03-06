@@ -25,6 +25,8 @@
   </template>
   
   <script>
+  import Mtc from '@/assets/img/Mtc.png';
+
   export default {
     data() {
       return {
@@ -33,7 +35,7 @@
           {
             title: 'MeliTaxCalculator',
             description: 'Real Profit Calculator for Mercado Livre.',
-            image: '',
+            image: Mtc,
             link: 'https://meli-tax-calculator.vercel.app',
           },
           {
@@ -83,7 +85,7 @@
   .project-card {
     border-radius: 10px;
     transition: transform 0.5s, box-shadow 0.2s;
-    margin: 0 15px;
+    margin: auto 15px;
   }
   
   .project-card:hover {
@@ -94,9 +96,10 @@
   }
   
   .card-title {
+    margin-top: 10px;
     font-size: 18px;
     font-weight: bold;
-    color: #222;
+    color: #f7f7f7;
   }
   
   .card-text {
