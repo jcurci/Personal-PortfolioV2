@@ -16,7 +16,7 @@
     </v-btn>
   </v-app-bar>
 
-  <v-navigation-drawer v-model="drawer" app temporary location="right" color="#252525">
+  <v-navigation-drawer v-if="drawer" v-model="drawer" app temporary location="right" color="#252525">
 
     <v-list dense>
       <v-list-item to="/" class="nav-button">
