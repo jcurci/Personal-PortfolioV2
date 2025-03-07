@@ -17,7 +17,7 @@
         </div>
         
     
-        <v-btn class="about-btn">
+        <v-btn class="about-btn" to="/resumo">
           <v-icon>mdi-human-greeting-variant</v-icon> About me
         </v-btn>
       </v-col>
