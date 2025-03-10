@@ -126,14 +126,16 @@
       };
     },
     methods: {
-    downloadResume() {
+      downloadResume() {
       const link = document.createElement('a');
-      link.href = '@/Downloads/CV-JhonatanCurci.pdf';
-      link.setAttribute('download', 'JhonatanResume.pdf');
+      link.href = '/Downloads/CvJhonatanCurci.pdf'; // Caminho correto dentro da pasta 'public'
+      link.target = '_blank'; // Abre em uma nova aba (opcional)
+      link.download = 'JhonatanCV.pdf'; // Nome do arquivo ao baixar
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-    }
+}
+
   }
   
   

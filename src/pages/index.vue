@@ -2,7 +2,7 @@
   <v-container id="welcomeMsg">
     <v-row align="center" justify="center" class="offset-md-1">
       
-      <v-col cols="12" md="6" sm="10">
+      <v-col cols="12" md="" sm="10">
         <div id="textbox">
           <h2 id="typeWriter">
             Hello World, Welcome!
@@ -11,8 +11,10 @@
           <h1>My name is Jhonatan Curci.</h1>
           <h2>
             I am a <span id="highlight">Web Developer</span>
-            actually working on 
-            <a class="highlight-btn" href="https://www.mdsgroup.com.br/pt/" target="_blank">MDS BRASIL.</a>
+            actually looking for an
+
+            <!-- Campo para preencher experiência atual com direcionamento -->
+            <h4 class="highlight-btn">Opportunity</h4> 
           </h2>
         </div>
         
